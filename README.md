@@ -20,7 +20,7 @@ NOTE: the /home/pi/.attract folder is a hidden folder so you may have to enable 
 
 The included ZIP file contains a folder called attract.  This folder is equivelent to /home/pi/.attract.  Navigate to that folder on the Pi and then transfer the files and folders into it.
 
-You should end up with a directory structure like this. (note, webpages will mess the next few lines up, but will be right when downloaded and reading the README.md file)
+You should end up with a directory structure like this. (note, web browsers will mess the next few lines up, but will be right when downloaded and reading the README.md file)
 
 /home/pi/.attract/Attract Mode Setup
 /home/pi/.attract/emulators   - this folder should have already existed
