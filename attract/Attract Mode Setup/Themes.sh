@@ -50,7 +50,7 @@ function gui_amthemes() {
         'dmmarti hurstyblue_system'
         'dmmarti hurstyblue_main'
         'dmmarti hurstyblue_nds'
-        'RetroHursy69 comiccrazy'
+        'RetroHursty69 comiccrazy'
     )
     while true; do
         local theme
