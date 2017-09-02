@@ -1,0 +1,21 @@
+#Name;Title;Emulator;CloneOf;Year;Manufacturer;Category;Players;Rotation;Control;Status;DisplayCount;DisplayType;AltRomname;AltTitle;Extra;Buttons
+Launch Emulationstation;Launch Emulationstation;Attract Mode Setup;;;;;;;;;;;;;;
+Configure Wifi;Configure Wifi;Attract Mode Setup;;;;;;;;;;;;;;
+Show IP Address;Show IP Address;Attract Mode Setup;;;;;;;;;;;;;;
+Raspberry Pi Setup;Raspberry Pi Setup;Attract Mode Setup;;;;;;;;;;;;;;
+RetroPie Setup Menu;RetroPie Setup;Attract Mode Setup;;;;;;;;;;;;;;
+Audio Settings;Audio Settings;Attract Mode Setup;;;;;;;;;;;;;;
+Bluetooth;Bluetooth Setup;Attract Mode Setup;;;;;;;;;;;;;;
+Change Splash Screen;Change Splash Screen;Attract Mode Setup;;;;;;;;;;;;;;
+Configuration Editor;Configuration Editor Setup;Attract Mode Setup;;;;;;;;;;;;;;
+File Manager Setup;File Manager Setup;Attract Mode Setup;;;;;;;;;;;;;;
+Run Command;Run Command;Attract Mode Setup;;;;;;;;;;;;;;
+Retroarch;Retroarch Setup;Attract Mode Setup;;;;;;;;;;;;;;
+Reboot Pi;Reboot;Attract Mode Setup;;;;;;;;;;;;;;
+Shutdown Pi;Shutdown;Attract Mode Setup;;;;;;;;;;;;;;
+Change Intro Video;Change Intro Video;Attract Mode Setup;;;;;;;;;;;;;;
+Displays Utility;Displays Utility;Attract Mode Setup;;;;;;;;;;;;;;
+Generate Favorites Romlist;Generate Favorites Romlist;Attract Mode Setup;;;;;;;;;;;;;;
+Remove All Favorites;Remove All Favorites;Attract Mode Setup;;;;;;;;;;;;;;
+Themes;Themes;Attract Mode Setup;;;;;;;;;;;;;;
+Update Attract Mode;Update Attract Mode;Attract Mode Setup;;;;;;;;;;;;;;

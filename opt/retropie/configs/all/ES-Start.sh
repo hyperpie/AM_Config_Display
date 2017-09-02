@@ -1,0 +1,3 @@
+
+emulationstation #auto
+
