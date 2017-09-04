@@ -13,7 +13,7 @@
 # then be able to easily download new themes for use.
 #
 
-currentuser=$(who am i | awk {'print $1'})
+currentuser=$(who | awk {'print $1'})
 
 function depends_amthemes() {
     if isPlatform "x11"; then
