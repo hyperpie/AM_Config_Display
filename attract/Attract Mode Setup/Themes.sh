@@ -52,6 +52,9 @@ function gui_amthemes() {
         'dmmarti hurstyblue_nds'
         'RetroHursty69 comiccrazy'
         'RetroHursty69 unifiedsnazzy'
+        'calle81 HPSilkyGamesMenu'
+        'calle81 HPSilkySubMenu'
+        'calle81 HPSilkyMainMenu'
     )
     while true; do
         local theme
