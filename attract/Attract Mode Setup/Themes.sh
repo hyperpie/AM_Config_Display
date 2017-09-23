@@ -55,6 +55,7 @@ function gui_amthemes() {
         'calle81 HPSilkyGamesMenu'
         'calle81 HPSilkySubMenu'
         'calle81 HPSilkyMainMenu'
+        'calle81 HP2Beta'
     )
     while true; do
         local theme
