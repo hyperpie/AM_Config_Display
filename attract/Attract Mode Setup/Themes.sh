@@ -36,7 +36,6 @@ function install_theme_amthemes() {
     rm -rf "/home/$currentuser/.attract/layouts/$theme"
     mkdir -p "/home/$currentuser/.attract/layouts"
     git clone "https://github.com/$repo/am-theme-$theme.git" "/home/$currentuser/.attract/layouts/$theme"
-    sleep 10
 }
 
 function uninstall_theme_amthemes() {
