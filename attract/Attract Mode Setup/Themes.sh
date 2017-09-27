@@ -13,7 +13,7 @@
 # then be able to easily download new themes for use.
 #
 
-currentuser=$(who | awk {'print $1'})
+currentuser=$(who | awk {'print $1'} | head -n1)
 
 function depends_amthemes() {
     if isPlatform "x11"; then
@@ -33,8 +33,10 @@ function install_theme_amthemes() {
         theme="default"
         repo="default"
     fi
+    rm -rf "/home/$currentuser/.attract/layouts/$theme"
     mkdir -p "/home/$currentuser/.attract/layouts"
     git clone "https://github.com/$repo/am-theme-$theme.git" "/home/$currentuser/.attract/layouts/$theme"
+    sleep 10
 }
 
 function uninstall_theme_amthemes() {
@@ -52,6 +54,10 @@ function gui_amthemes() {
         'dmmarti hurstyblue_nds'
         'RetroHursty69 comiccrazy'
         'RetroHursty69 unifiedsnazzy'
+        'calle81 HPSilkyGamesMenu'
+        'calle81 HPSilkySubMenu'
+        'calle81 HPSilkyMainMenu'
+        'calle81 HP2Beta'
     )
     while true; do
         local theme
