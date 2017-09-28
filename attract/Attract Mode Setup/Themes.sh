@@ -12,8 +12,17 @@
 # to the various creators Github pages for inclusion.  End users will
 # then be able to easily download new themes for use.
 #
-
+localver=1.0b
 currentuser=$(who | awk {'print $1'} | head -n1)
+updatever=$(curl https://raw.githubusercontent.com/hyperpie/AM_Config_Display/master/attract/Attract%20Mode%20Setup/themes_version.txt 2> /dev/null)
+
+function check_for_script_update() {
+if [ $updatever != $localver ]; then
+echo "You have Version $localver. The latest version is $updatever Please Update on the next menu!"
+fi
+sleep 2
+}
+
 
 function depends_amthemes() {
     if isPlatform "x11"; then
@@ -118,5 +127,5 @@ function gui_amthemes() {
         esac
     done
 }
-
+check_for_script_update
 gui_amthemes
