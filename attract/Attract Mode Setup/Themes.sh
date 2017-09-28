@@ -102,7 +102,8 @@ function gui_amthemes() {
                 mv "Themes.sh" "Themes.sh.bkp" 
                 wget "https://raw.githubusercontent.com/hyperpie/AM_Config_Display/master/attract/Attract Mode Setup/Themes.sh" 
                 chmod 777 "Themes.sh" 
-                exit
+                exec "$0"
+                #exit
                 ;;
             *)  #install or update themes
                 theme=(${themes[choice-1]})
