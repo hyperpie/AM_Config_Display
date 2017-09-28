@@ -99,7 +99,8 @@ function gui_amthemes() {
         case "$choice" in
             U)  #update install script to get new theme listings
                 cd "/home/$currentuser/.attract/Attract Mode Setup" 
-                cp "Themes.sh" "Themes.sh.bkp" 
+                cp "Themes.sh" "Themes.sh.bkp"
+                rm -rf Themes.sh 
                 wget "https://raw.githubusercontent.com/hyperpie/AM_Config_Display/master/attract/Attract Mode Setup/Themes.sh" 
                 chmod 777 "Themes.sh" 
                 exec "$0"
