@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This file is NOT part of The RetroPie Project
+## This file is NOT part of The RetroPie Project
 #
 # This script is a third party script to install Attract Mode themes
 # onto a RetroPie build.
@@ -11,7 +11,8 @@
 # The main Attract Mode Theme installer script will contain the links
 # to the various creators Github pages for inclusion.  End users will
 # then be able to easily download new themes for use.
-#
+##
+
 localver=1.0b
 currentuser=$(who | awk {'print $1'} | head -n1)
 updatever=$(curl https://raw.githubusercontent.com/hyperpie/AM_Config_Display/master/attract/Attract%20Mode%20Setup/themes_version.txt 2> /dev/null)
