@@ -101,7 +101,7 @@ function gui_amthemes() {
                 cd "/home/$currentuser/.attract/Attract Mode Setup" 
                 cp "Themes.sh" "Themes.sh.bkp"
                 rm -rf Themes.sh 
-                wget "https://raw.githubusercontent.com/hyperpie/AM_Config_Display/master/attract/Attract Mode Setup/Themes.sh" 
+                wget "https://raw.githubusercontent.com/hyperpie/AM_Config_Display/master/attract/Attract Mode Setup/Themes.sh" -O "/home/$currentuser/.attract/Attract Mode Setup/Themes.sh"
                 chmod 777 "Themes.sh" 
                 exec "$0"
                 ;;
