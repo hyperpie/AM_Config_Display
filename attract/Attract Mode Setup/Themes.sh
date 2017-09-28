@@ -21,7 +21,7 @@ function check_for_script_update() {
 if [ $updatever != $localver ]; then
 echo "You have Version $localver. The latest version is $updatever Please Update on the next menu!"
 fi
-sleep 2
+sleep 10
 }
 
 
