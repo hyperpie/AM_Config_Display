@@ -13,15 +13,15 @@
 # then be able to easily download new themes for use.
 ##
 
-localver=1.0b
+localver=1.0.1b
 currentuser=$(who | awk {'print $1'} | head -n1)
 updatever=$(curl https://raw.githubusercontent.com/hyperpie/AM_Config_Display/master/attract/Attract%20Mode%20Setup/themes_version.txt 2> /dev/null)
 
 function check_for_script_update() {
 if [ $updatever != $localver ]; then
 echo "You have Version $localver. The latest version is $updatever Please Update on the next menu!"
-fi
 sleep 10
+fi
 }
 
 
