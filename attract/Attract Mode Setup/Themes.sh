@@ -62,6 +62,7 @@ function gui_amthemes() {
         'dmmarti hurstyblue_main'
         'dmmarti hurstyblue_nds'
         'RetroHursty69 comiccrazy'
+        'RetroHursty69 comiccrazy_menu'
         'RetroHursty69 unifiedsnazzy'
         'calle81 HPSilkyGamesMenu'
         'calle81 HPSilkySubMenu'
