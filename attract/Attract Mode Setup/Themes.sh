@@ -68,7 +68,7 @@ function gui_amthemes() {
         'calle81 HP2-Sub-Menu'
         'calle81 HP2-Systems-Menu'
         'calle81 HP2-Systems-Menu-Boxart'
-        'calle81 HP2Beta-BoxartStyle'
+
     )
     while true; do
         local theme
