@@ -68,6 +68,9 @@ function gui_amthemes() {
         'calle81 HP2-Sub-Menu'
         'calle81 HP2-Systems-Menu'
         'calle81 HP2-Systems-Menu-Boxart'
+        'calle81 HP2-Main-Menu-4x3'
+        'calle81 HP2-Sub-Menu-4x3'
+        'calle81 HP2-Systems-Menu-4x3'
 
     )
     while true; do
